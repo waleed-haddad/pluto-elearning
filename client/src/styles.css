@@ -9,8 +9,22 @@ body {
     margin: 0;
 }
 
+h1{
+    color: #303258;
+    font-size: 54px;
+}
+
+p{
+    color: #464646;
+    font-size: 24px;
+}
+
+.light_blue_text{
+    color: #1875FF;
+}
+
 .container {
-    margin: 1rem;
+    
     text-align: center;
 }
 
@@ -88,4 +102,44 @@ body {
     width: 100%;
     height: 3px;
     background-color: #ffcc00; 
+}
+
+.top_page{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF3E4;
+    justify-content:center;
+}
+
+.top_page button{
+    background-color: #F4C467;
+    color: white;
+    font-size: 20px;
+    border-radius: 80px;
+    border: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.top_page button:hover{
+    color: #252641;
+    transition: all 0.3s ease;
+}
+
+
+.home_top_left{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.home_top_right{
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 20px
 }
