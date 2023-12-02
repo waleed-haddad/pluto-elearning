@@ -6,6 +6,7 @@ import Courses from "./pages/courses";
 import Login from "./pages/login";
 import Sign from "./pages/sign";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/footer"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div>
       <Navbar />
       <div className="container">
+        <div className="content-wrap">
         <Routes>
           <Route path = "/" element = {<Home />} />
           <Route path = "/home" element = {<Home />} />
@@ -24,6 +26,8 @@ function App() {
           <Route path = "/sign" element = {<Sign />} />
         </Routes>
       </div>
+      </div>
+      <Footer/>
     </div>
 );}
 
