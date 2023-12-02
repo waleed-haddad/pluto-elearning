@@ -24,7 +24,6 @@ p{
 }
 
 .container {
-    
     text-align: center;
 }
 
@@ -110,6 +109,7 @@ p{
     text-align: center;
     background-color: #FFF3E4;
     justify-content:center;
+    
 }
 
 .top_page button{
@@ -143,3 +143,4 @@ p{
     margin-left: 20px;
     margin-right: 20px
 }
+
