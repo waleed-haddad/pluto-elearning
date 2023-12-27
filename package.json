@@ -1,10 +1,10 @@
 {
   "name": "vite-mern-template",
   "version": "1.0.1",
-  "main": "server/src/index.ts",
+  "main": "server/src/index.js",
   "scripts": {
     "watch": "tsc --watch",
-    "server": "node --watch dist/index.js",
+    "server": "node server/src/index.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "prettier": "prettier . --write",
@@ -19,7 +19,8 @@
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.6.3"
+    "mongoose": "^7.6.3",
+    "nodemailer": "^6.9.7"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.5",
