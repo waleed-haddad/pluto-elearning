@@ -1,56 +1,40 @@
-# vite-mern-template
+# Pluto E-Learning
 
-[![Depfu](https://badges.depfu.com/badges/1b70410a7764005553d576dd171dce8d/status.svg)](https://depfu.com)
-[![Depfu](https://badges.depfu.com/badges/1b70410a7764005553d576dd171dce8d/count.svg)](https://depfu.com/github/apicgg/vite-mern-template?project_id=38988)
+> An interactive financial literacy learning platform
 
-> Simple opinionated boilerplate for MERN stack with Vite and Redux Toolkit.
-> This includes React+TypeScript with familiar configuration for vite.config.ts for front-end and Express+TypeScript for back-end.
+> Powered and Supported by Enactus
 
-This has been created with the official [Vite](https://vitejs.dev/) template (`npm create vite@latest`) and some extended setup. There are two separate folders called `server` and `client`. The entry point for the backend is `server/src/index.js`.
+A special thanks to apicgg for creating [Vite Mern Template](https://github.com/apicgg/vite-mern-template) which this project used as a template.
 
 Any package manager can be used with this project (e.g. npm, yarn or pnpm).
-
-> Thanks to [awesome-vite](https://github.com/vitejs/awesome-vite) for publishing this project.
-
-## Tools
-
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-- [Axios](https://axios-http.com/)
-- [React Router DOM](https://reactrouter.com/)
-- [Express](https://expressjs.com/)
-- [mongoose](https://mongoosejs.com/)
-- [bcrypt.js](https://www.npmjs.com/package/bcryptjs)
-- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-- [express-async-handler](https://www.npmjs.com/package/express-async-handler)
-
-#### The dependency versions are managed by [depfu](https://depfu.com/).
 
 ## Requirements
 
 - [Node.js](https://nodejs.org/en/) 18+
 
-## Demo
+## Local Hosting
 
-![vite-mern-template-gh-demo](https://user-images.githubusercontent.com/78271602/234833309-fe8df564-2895-4727-be1e-c807fe142333.gif)
-
-## Installation
+To get started:
 
 ```bash
-npx degit apicgg/vite-mern-template my-app
+git clone https://github.com/waleed-haddad/pluto-elearning.git
 ```
 
 ## Install dependencies (npm or yarn or pnpm)
 
-- Backend
+To make sure the website is running, you need to install the packages for the client and server seperately. First make, sure you are in the project by 
+
+```bash
+cd pluto-elearning
+```
+
+To install backend, call: 
 
 ```bash
 npm install
 ```
 
-- Frontend
+Do something similar for frontend:
 
 ```bash
 cd client
@@ -59,10 +43,11 @@ npm install
 
 ## Start the development server
 
+If you want to run each seperatly, follow the following instructions:
+
 - Backend
 
 ```bash
-npm run watch
 npm run server
 ```
 
@@ -72,15 +57,11 @@ npm run server
 npm run client
 ```
 
-- Remove the .git folder and initialize your own git repository.
-- In this case `npm run watch` needs to be executed before starting the development server with `npm run server` on different terminal sessions as the TypeScript files (backend) need to be compiled to JavaScript before staring the dev server with node.
-- To build run `npm run build:server` and `npm run build:client`.
+If you wish to run them together, call:
 
-## TODO
-
-- [x] Include eslint and prettier.
-- [ ] Add testing frameworks.
-- [ ] Create a npm CLI library for scaffolding projects.
+```bash
+npm run dev
+```
 
 ## License
 
