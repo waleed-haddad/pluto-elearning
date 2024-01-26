@@ -4,6 +4,11 @@
       box-sizing: border-box;
   }
 
+.container-width{
+    max-width: 2000px;
+    margin: auto;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -16,11 +21,19 @@ h1{
 
 p{
     color: #464646;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .light_blue_text{
     color: #1875FF;
+}
+
+.light_grey_text{
+    color: #696984;
+}
+
+.dark_blue_text {
+    color: #2F327D;
 }
 
 .container {
@@ -144,3 +157,56 @@ p{
     margin-right: 20px
 }
 
+.home_buttons {
+    padding: 14px;
+    border: none;
+    background-color: #F4C467;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.home_buttons:hover {
+    scale: 98%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.founded_by_home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.what_is_pluto_home h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.what_is_pluto_home p{
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.budget_and_investing_home{
+    padding-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.budget_and_investing_home h1{
+    font-size: 32px;
+}
+
+.building_credit_home{
+    padding-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.building_credit_home h1 {
+    font-size: 32px;
+    font-weight: bolder;
+}
