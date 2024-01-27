@@ -145,7 +145,6 @@ p{
     transition: all 0.3s ease;
 }
 
-
 .home_top_left{
     text-align: left;
     margin-left: 100px;
@@ -154,7 +153,7 @@ p{
 .home_top_right{
     text-align: right;
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .home_buttons {
@@ -209,4 +208,45 @@ p{
 .building_credit_home h1 {
     font-size: 32px;
     font-weight: bolder;
+}
+
+.building_credit_home p {
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+.home_middle_right{
+    margin-top: -300px;
+    text-align: right;
+    margin-right: 100px;
+    display: flex;
+    margin-bottom: -300px;
+}
+
+.learning_home{
+    display: flex;
+    text-align: left;
+    margin-top: -200px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 50px;
+}
+
+.learning_home button {
+    padding: 14px;
+    border: none;
+    background-color: #F4C467;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.learning_home button:hover {
+    scale: 98%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.learning_home_padding {
+    padding-right: 50px;
 }
