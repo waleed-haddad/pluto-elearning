@@ -1,0 +1,158 @@
+.divider{
+    font-size: 3vw;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* About Banner Structure */
+
+.aboutBanner{ 
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.aboutBanner .leftSide{
+    float: left;
+    width: 50%;
+}
+
+.aboutBanner .rightSide{
+    float: right;
+    width: 50%;
+}
+
+.aboutList{
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* About Banner Number */
+
+.aboutBanner .leftSide .bannerTitle{
+    position: absolute;
+    width: 40%;
+    right: 40%;
+    top: 15%;
+    z-index: 20;
+    font-size: 2vw;
+    color: #000000;
+    text-shadow: 1px 1px rgba(177, 177, 177, 0.312);
+    text-align: left;
+    font-weight: bold;
+}
+
+.aboutBanner .leftSide .bannerTitle2{
+    position: absolute;
+    width: 40%;
+    right: 35.75%;
+    top: 15%;
+    z-index: 20;
+    font-size: 2vw;
+    color: #0062ff;
+    text-shadow: 1px 1px rgba(177, 177, 177, 0.312);
+    text-align: left;
+    font-weight: bold;
+}
+
+.aboutBanner .leftSide .bannerText{
+    padding-top: 1vh;
+    position: absolute;
+    width: 35%;
+    right: 45%;
+    top: 25%;
+    z-index: 20;
+    font-size: 1vw;
+    color: #0c0c0c;
+    text-align: left;
+    -webkit-animation: fadeinText 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeinText 1s; /* Firefox < 16 */
+        -ms-animation: fadeinText 1s; /* Internet Explorer */
+         -o-animation: fadeinText 1s; /* Opera < 12.1 */
+            animation: fadeinText 1s;
+}
+
+@keyframes fadeinText {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinText {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinText {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinText {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeinText {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.aboutBanner .rightSide .backBackgroundImg{
+    height: 50vh;
+    margin: auto;
+}
+
+/* About Node CSS */
+
+.aboutNode{
+    position: relative;
+    flex: 0 0 30%;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 1vh 1vw 1vh 1vw;
+    padding: 1vh 1vw 1vh 1vw;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px #0000005f;
+    animation: nodeFadeIn 0.3s linear;
+}
+
+.aboutList .aboutImgNode{
+    width: 100%;
+}
+
+.aboutNode:hover{
+    transform: scale(1.01);
+}
+
+
+.aboutNameNode{
+    text-align: left;
+    padding: 2vh 1vw 1vh 1vw;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.aboutRoleNode{
+    text-align: left;
+    padding: 0vh 1vw 0vh 1vw;
+    font-size: 1.05vw;
+}
+
+.aboutContentNode{
+    text-align: left;
+    padding: 0vh 1vw 0vh 1vw;
+    font-size: 0.9vw;
+}
