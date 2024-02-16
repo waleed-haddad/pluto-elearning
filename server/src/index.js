@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const express = require("express");
-const routes = require('./routes/routes')
+const routes = require('./routes/routes');
 
 require('dotenv').config()
 const connectionLink = process.env.DATABASE_URL;
@@ -22,6 +22,15 @@ db.once('connected', () =>{
 const app = express();
 //Allow app to parse json
 app.use(express.json());
+
+const cors = require('cors');
+
+app.use(cors({
+    origin: 'http://localhost:3000',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true
+  }));
 
 app.use('/api', routes);
 

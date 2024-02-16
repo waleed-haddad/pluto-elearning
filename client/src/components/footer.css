@@ -13,22 +13,17 @@ ul {
 
 .row {
     display:flex;
+    flex-direction: row;
     background-color: #252641;
-    padding-left:5%;
-    margin-left:-20px;
-    margin-top:5%;
-    padding-bottom: 0%;
     width: 100%;
     height: 40%;
     bottom:0%;
     top: 60%;
-
-
 }
 
 .col {
     padding-right: 20%;
-
+    padding-left: 35px;
 }
 
 h2 {
